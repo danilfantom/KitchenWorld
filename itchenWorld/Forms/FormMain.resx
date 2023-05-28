@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;lightToolStripMenuItem.Name" xml:space="preserve">
+    <value>lightToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;gasToolStripMenuItem.Name" xml:space="preserve">
+    <value>gasToolStripMenuItem</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="DishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="&gt;&gt;purcaheToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="departamentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="departamentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Отдел</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1466, 24</value>
+  </data>
+  <data name="&gt;&gt;utilitiesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReportToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gasToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SelectDataToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 20</value>
+  </data>
+  <data name="&gt;&gt;InventoryToolStripMenuItem.Name" xml:space="preserve">
+    <value>InventoryToolStripMenuItem</value>
+  </data>
+  <data name="ReportToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сформировать отчет</value>
+  </data>
+  <data name="&gt;&gt;ContactPersonToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;roomToolStripMenuItem.Name" xml:space="preserve">
+    <value>roomToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;DishToolStripMenuItem.Name" xml:space="preserve">
+    <value>DishToolStripMenuItem</value>
+  </data>
+  <data name="ProviderToolStripMenuItem.Text" xml:space="preserve">
+    <value>Поставщик</value>
+  </data>
+  <data name="&gt;&gt;KitchenToolStripMenuItem.Name" xml:space="preserve">
+    <value>KitchenToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;personalDataToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;productToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;personalDataToolStripMenuItem.Name" xml:space="preserve">
+    <value>personalDataToolStripMenuItem</value>
+  </data>
+  <data name="waterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="&gt;&gt;roomToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DishToolStripMenuItem.Text" xml:space="preserve">
+    <value>Блюда</value>
+  </data>
+  <data name="purcacheDescriotionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Состав закупки</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;DepartementToolStripMenuItem.Name" xml:space="preserve">
+    <value>DepartementToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;workingDataToolStripMenuItem.Name" xml:space="preserve">
+    <value>workingDataToolStripMenuItem</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Symbol, 12pt</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="workingDataToolStripMenuItem.Text" xml:space="preserve">
+    <value>Рабочие данные</value>
+  </data>
+  <data name="stockToolStripMenuItem.Text" xml:space="preserve">
+    <value>Склад</value>
+  </data>
+  <data name="EuqipmentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;workingDataToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InventoryToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EuqipmentToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;purcacheDescriotionToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ContactPersonToolStripMenuItem.Text" xml:space="preserve">
+    <value>Контактные лица</value>
+  </data>
+  <data name="roomToolStripMenuItem.Text" xml:space="preserve">
+    <value>Помещение</value>
+  </data>
+  <data name="DepartementToolStripMenuItem.Text" xml:space="preserve">
+    <value>Отделение</value>
+  </data>
+  <data name="&gt;&gt;purcacheDescriotionToolStripMenuItem.Name" xml:space="preserve">
+    <value>purcacheDescriotionToolStripMenuItem</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Главное меню</value>
+  </data>
+  <data name="&gt;&gt;departamentToolStripMenuItem.Name" xml:space="preserve">
+    <value>departamentToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;departamentToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DishToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="workingDataToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 22</value>
+  </data>
+  <data name="gasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="&gt;&gt;ReportToolStripMenuItem.Name" xml:space="preserve">
+    <value>ReportToolStripMenuItem</value>
+  </data>
+  <data name="ContactPersonToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="&gt;&gt;utilitiesToolStripMenuItem.Name" xml:space="preserve">
+    <value>utilitiesToolStripMenuItem</value>
+  </data>
+  <data name="empolyeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сотрудник</value>
+  </data>
+  <data name="&gt;&gt;DepartementToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SelectDataToolStripMenuItem.Name" xml:space="preserve">
+    <value>SelectDataToolStripMenuItem</value>
+  </data>
+  <data name="productToolStripMenuItem.Text" xml:space="preserve">
+    <value>Продукты</value>
+  </data>
+  <data name="&gt;&gt;stockToolStripMenuItem.Name" xml:space="preserve">
+    <value>stockToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;saleToolStripMenuItem.Name" xml:space="preserve">
+    <value>saleToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ProviderToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;ProviderToolStripMenuItem.Name" xml:space="preserve">
+    <value>ProviderToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;empolyeToolStripMenuItem.Name" xml:space="preserve">
+    <value>empolyeToolStripMenuItem</value>
+  </data>
+  <data name="purcacheDescriotionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="DepartementToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 20</value>
+  </data>
+  <data name="waterToolStripMenuItem.Text" xml:space="preserve">
+    <value>Вода</value>
+  </data>
+  <data name="purcaheToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="&gt;&gt;stockToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuToolStripMenuItem.Name" xml:space="preserve">
+    <value>MenuToolStripMenuItem</value>
+  </data>
+  <data name="EuqipmentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Оборудование</value>
+  </data>
+  <data name="&gt;&gt;SelectDataToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ProviderToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="stockToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="InventoryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="utilitiesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Коммунальные услуги</value>
+  </data>
+  <data name="lightToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="&gt;&gt;ContactPersonToolStripMenuItem.Name" xml:space="preserve">
+    <value>ContactPersonToolStripMenuItem</value>
+  </data>
+  <data name="InventoryToolStripMenuItem.Text" xml:space="preserve">
+    <value>Инвентарь</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="MenuToolStripMenuItem.Text" xml:space="preserve">
+    <value>Меню</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormMain</value>
+  </data>
+  <data name="KitchenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="SelectDataToolStripMenuItem.Text" xml:space="preserve">
+    <value>Выборка данных</value>
+  </data>
+  <data name="&gt;&gt;lightToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MenuToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="ReportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 20</value>
+  </data>
+  <data name="gasToolStripMenuItem.Text" xml:space="preserve">
+    <value>Газ</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1466, 892</value>
+  </data>
+  <data name="&gt;&gt;empolyeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;waterToolStripMenuItem.Name" xml:space="preserve">
+    <value>waterToolStripMenuItem</value>
+  </data>
+  <data name="saleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="&gt;&gt;purcaheToolStripMenuItem.Name" xml:space="preserve">
+    <value>purcaheToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;productToolStripMenuItem.Name" xml:space="preserve">
+    <value>productToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;EuqipmentToolStripMenuItem.Name" xml:space="preserve">
+    <value>EuqipmentToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;waterToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="empolyeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="utilitiesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="personalDataToolStripMenuItem.Text" xml:space="preserve">
+    <value>Личные данные</value>
+  </data>
+  <data name="productToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="purcaheToolStripMenuItem.Text" xml:space="preserve">
+    <value>Закупка</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 21</value>
+  </data>
+  <data name="&gt;&gt;KitchenToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="saleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Продажа</value>
+  </data>
+  <data name="personalDataToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 22</value>
+  </data>
+  <data name="KitchenToolStripMenuItem.Text" xml:space="preserve">
+    <value>Кухня</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="roomToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="&gt;&gt;saleToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lightToolStripMenuItem.Text" xml:space="preserve">
+    <value>Свет</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ru</value>
+  </metadata>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>
